@@ -13,6 +13,40 @@
     />
   </head>
   <body>
+    <div class="container">
+      <form class="row g-3" id="login">
+        <!-- Distanza-INPUT -->
+        <div class="mb-3">
+          <label for="distanza" class="form-label">Distanza</label>
+          <input
+            type="number"
+            class="form-control"
+            id="distanza"
+            placeholder="Inserisce il  vostro nome e Cognome"
+            required
+            value=""
+          />
+        </div>
+        <!-- Age-input -->
+        <div class="col-md-4">
+          <label for="Age" class="form-label">Age</label>
+          <select id="Age" class="form-select" required>
+            <option selected id="Under-18" value="18">Under-18</option>
+            <option id="Over-65" value="65">Over-65</option>
+          </select>
+        </div>
+
+        <!-- Button -->
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary" id="button">
+            Sign in
+          </button>
+        </div>
+      </form>
+      <!--prezzoFinale  -->
+      <p id="prezzoFinale"></p>
+    </div>
+
     <!-- link--scriptJS -->
     <script src="./script.js"></script>
   </body>
