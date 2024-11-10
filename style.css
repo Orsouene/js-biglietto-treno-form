@@ -1,0 +1,132 @@
+/* Layout */
+.pers-bg {
+  align-items: baseline;
+  margin: 0 83px;
+}
+
+/* cards */
+.card1 {
+  margin: 30px auto;
+  text-align: center;
+}
+/* Container */
+.container {
+  max-width: 1200px;
+}
+
+/* List */
+ul {
+  list-style-type: none;
+  text-align: center;
+  font-weight: bold;
+}
+/* Codice QR */
+.qr {
+  width: 100px;
+}
+/* imgs */
+.santa {
+  width: 1100px;
+}
+
+/* Google-font */
+.josefin-sans-uniquifier {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 3rem;
+  color: white;
+}
+
+/* Anchor */
+.ft-anchor {
+  color: black;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+/* Animation  */
+.anim {
+  color: red;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+@keyframes example {
+  0% {
+    color: #c40c0c;
+  }
+  10% {
+    color: #c40c0c;
+  }
+  20% {
+    color: #ff6500;
+  }
+  30% {
+    color: #ff8a08;
+  }
+  40% {
+    color: #ffc100;
+  }
+  50% {
+    color: #ff6500;
+  }
+  60% {
+    color: #c40c0c;
+  }
+  70% {
+    color: #ff8a08;
+  }
+  80% {
+    color: #ff6500;
+  }
+  90% {
+    color: #c40c0c;
+  }
+  100% {
+    color: #ff8a08;
+  }
+}
+
+/* Animation 2 */
+.anim2 {
+  color: red;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+@keyframes example {
+  0% {
+    color: #c40c0c;
+  }
+  10% {
+    color: #c40c0c;
+  }
+  20% {
+    color: #ff6500;
+  }
+  30% {
+    color: #ff8a08;
+  }
+  40% {
+    color: #ffc100;
+  }
+  50% {
+    color: #ff6500;
+  }
+  60% {
+    color: #c40c0c;
+  }
+  70% {
+    color: #ff8a08;
+  }
+  80% {
+    color: #ff6500;
+  }
+  90% {
+    color: #c40c0c;
+  }
+  100% {
+    color: #ff8a08;
+  }
+}
